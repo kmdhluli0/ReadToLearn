@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)file:///C:/Users/OM/OneDrive/Documents/SHECODES/My%20favorite%20hobby.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading📖 </title>
+    <style>
+      body {
+        background: linear-gradient(
+          68.6deg,
+          rgb(252, 165, 241) 1.8%,
+          rgb(181, 255, 255) 100.5%
+        );
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid plum;
+        background: white;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: plum;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .theme-button {
+        font-size: 10px;
+        background: black;
+        color: white;
+        padding: 5 8px;
+      }
+
+      .theme-button:hover {
+        color: black;
+        background: white;
+      }
+
+      .salsa-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .salsa-intro-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .dark {
+        background: black;
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .dark a {
+        color: plum;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+        <h1>Reading Novels 📖</h1>
+    <h2>My favourite hobby🤓</h2>
+      <a href="https://en.wikipedia.org/wiki/Reading#:~:text=Research%20suggests%20that%20reading%20can,life%20and%20the%20senior%20years" target="_blank">
+        <img src="./Reading📖_files/young-adult-woman-library.jpg" alt="" class="salsa-intro-picture">
+      </a>
+      <div class="grid">
+        <img src="./Reading📖_files/0_DI4ointlcukqBf0s.jpg" alt="">
+        <img src="./Reading📖_files/pretty-african-american-girl-reading-600nw-682208722.jpg" alt="">
+        <img src="./Reading📖_files/girl-3528292_1280.jpg" alt="">
+        <img src="./Reading📖_files/ai-generated-8704493_960_720.jpg" alt="">
+      </div>
+      <p>
+        Reading is important because it develops your mind and gives you excessive knowledge and lessons of life.
+        It helps you understand the world around you better. It keeps your mind active and enhances your creative ability.
+        <br><br>
+        📖
+        <a href="https://en.wikipedia.org/wiki/Reading#:~:text=Research%20suggests%20that%20reading%20can,life%20and%20the%20senior%20years" target="_blank">
+          <strong> Read on Wikipedia </strong>
+        </a>
+      </p>
+    </div>
+    <footer>
+      Coded with 💜 by
+      <a href="https://github.com/kmdhluli0" target="_blank">Kgomotso Mdhluli</a>
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  
+
+</body></html>
